@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="PortfolioFormattingBootstrap.css">
+        <link rel="icon" type="image/png" href="images/SquareGreyLogo.png">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Roboto:300,700" rel="stylesheet">  
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <title>Amy Joseph Portfolio</title>
+    </head>
+
+    <body>
+            <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-custom">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/LongGreyLogo1.png" alt="Logo" class="grey-logo" onmouseover="this.src='images/LongPinkLogo1.png'" onmouseout="this.src='images/LongGreyLogo1.png'">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link" href="PortfolioAboutMe.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggler" href="PortfolioPortfolioPage.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PORTFOLIO</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="PortfolioWeb.html">Web Development</a>
+                            <a class="dropdown-item" href="PortfolioPhotography.html">Photography</a>
+                            <a class="dropdown-item" href="PortfolioSpreadsheets.html">Spreadsheets</a>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="PortfolioContactMe.html">CONTACT</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+
+            <div class="container-fluid">
+                <section id="spreadsheet-intro">
+                    <div class="row portfolio-intro">
+                        <div class="col-sm">
+                            <h1 class="port-intro-h1"><span style="background-color: #f9e3e3">SPREADSHEETS</span></h1>
+                            <h3 class="port-intro-h3">Here you will find my previous work with Microsoft Excel, making spreadsheets and databases.</h3>
+                        </div>
+                    </div>
+                </section>
+            </div> 
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <section id="budgeting-img">
+                            <img src="images/SpreadsheetImage.jpg" alt="Preview of Budgeting Spreadsheet" class="img-fluid mx-auto d-block spreadsheet-image">
+                            <button class="download-button mx-auto d-block">
+                                <a href="files/Weekly-Loan-Budgeting.xlsx" download="WeeklyLoanBudgeting" class="sheet-link"><i class="fa fa-download"></i>&nbsp; Click To Download</a>
+                            </button>
+                        </section>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <section id="budgeting-info">
+                            <h1 class="sheets-info-h1">UNIVERSITY BUDGETING SHEET</h1>
+                            <br>
+                            <h3 class="sheets-info-h3">Before I started university, I decided to make myself a spreadsheet which I could use to figure out a weekly allowance from my student loan and how much I’d have leftover from each week that I didn’t spend the weekly allowance. The spreadsheet takes each semester’s loan amount and divides it by how many weeks are in that semester to work out a weekly allowance and if you spend over the weekly allowance then the cell’s contents will turn red. A total and an average is also calculated at the end of each semester, which has been useful for me when comparing last year’s expenditure to this years.</h3>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm">
+                        <hr class="page-end">
+                    </div>
+                </div>
+            </div>
+            
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+        <script>
+            window.sr=ScrollReveal();
+            sr.reveal('#spreadsheet-intro', {
+              duration: 1000,
+              origin: 'top',
+              distance: '500px'
+            });
+            sr.reveal('#budgeting-img', {
+              duration: 1500,
+              origin: 'left',
+              distance: '1000px'
+            });
+            sr.reveal('#budgeting-info', {
+              duration: 1500,
+              origin: 'right',
+              distance: '1000px'
+            });
+        </script>
+    </body>
+</html>
