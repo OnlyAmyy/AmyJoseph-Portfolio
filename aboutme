@@ -32,13 +32,13 @@
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggler" href="PortfolioPortfolioPage.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PORTFOLIO</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="PortfolioWeb.html">Web Development</a>
-                        <a class="dropdown-item" href="PortfolioPhotography.html">Photography</a>
-                        <a class="dropdown-item" href="PortfolioSpreadsheets.html">Spreadsheets</a>
+                        <a class="dropdown-item" href="webdevelopment">Web Development</a>
+                        <a class="dropdown-item" href="photography">Photography</a>
+                        <a class="dropdown-item" href="spreadsheets">Spreadsheets</a>
                       </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="PortfolioContactMe.html">CONTACT</a>
+                    <a class="nav-link" href="contactme">CONTACT</a>
                 </li>
               </ul>
             </div>
